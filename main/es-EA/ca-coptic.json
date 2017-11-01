@@ -4,7 +4,7 @@
       "identity": {
         "version": {
           "_number": "$Revision: 13133 $",
-          "_cldrVersion": "31.0.1"
+          "_cldrVersion": "32"
         },
         "language": "es",
         "territory": "EA"
@@ -15,19 +15,19 @@
             "months": {
               "format": {
                 "abbreviated": {
-                  "1": "Tout",
-                  "2": "Baba",
-                  "3": "Hator",
-                  "4": "Kiahk",
-                  "5": "Toba",
-                  "6": "Amshir",
-                  "7": "Baramhat",
-                  "8": "Baramouda",
-                  "9": "Bashans",
-                  "10": "Paona",
-                  "11": "Epep",
-                  "12": "Mesra",
-                  "13": "Nasie"
+                  "1": "tout",
+                  "2": "baba",
+                  "3": "hator",
+                  "4": "kiahk",
+                  "5": "toba",
+                  "6": "amshir",
+                  "7": "baramhat",
+                  "8": "baramouda",
+                  "9": "bashans",
+                  "10": "paona",
+                  "11": "epep",
+                  "12": "mesra",
+                  "13": "nasie"
                 },
                 "narrow": {
                   "1": "1",
@@ -45,36 +45,36 @@
                   "13": "13"
                 },
                 "wide": {
-                  "1": "Tout",
-                  "2": "Baba",
-                  "3": "Hator",
-                  "4": "Kiahk",
-                  "5": "Toba",
-                  "6": "Amshir",
-                  "7": "Baramhat",
-                  "8": "Baramouda",
-                  "9": "Bashans",
-                  "10": "Paona",
-                  "11": "Epep",
-                  "12": "Mesra",
-                  "13": "Nasie"
+                  "1": "tout",
+                  "2": "baba",
+                  "3": "hator",
+                  "4": "kiahk",
+                  "5": "toba",
+                  "6": "amshir",
+                  "7": "baramhat",
+                  "8": "baramouda",
+                  "9": "bashans",
+                  "10": "paona",
+                  "11": "epep",
+                  "12": "mesra",
+                  "13": "nasie"
                 }
               },
               "stand-alone": {
                 "abbreviated": {
-                  "1": "Tout",
-                  "2": "Baba",
-                  "3": "Hator",
-                  "4": "Kiahk",
-                  "5": "Toba",
-                  "6": "Amshir",
-                  "7": "Baramhat",
-                  "8": "Baramouda",
-                  "9": "Bashans",
-                  "10": "Paona",
-                  "11": "Epep",
-                  "12": "Mesra",
-                  "13": "Nasie"
+                  "1": "tout",
+                  "2": "baba",
+                  "3": "hator",
+                  "4": "kiahk",
+                  "5": "toba",
+                  "6": "amshir",
+                  "7": "baramhat",
+                  "8": "baramouda",
+                  "9": "bashans",
+                  "10": "paona",
+                  "11": "epep",
+                  "12": "mesra",
+                  "13": "nasie"
                 },
                 "narrow": {
                   "1": "1",
@@ -92,19 +92,19 @@
                   "13": "13"
                 },
                 "wide": {
-                  "1": "Tout",
-                  "2": "Baba",
-                  "3": "Hator",
-                  "4": "Kiahk",
-                  "5": "Toba",
-                  "6": "Amshir",
-                  "7": "Baramhat",
-                  "8": "Baramouda",
-                  "9": "Bashans",
-                  "10": "Paona",
-                  "11": "Epep",
-                  "12": "Mesra",
-                  "13": "Nasie"
+                  "1": "tout",
+                  "2": "baba",
+                  "3": "hator",
+                  "4": "kiahk",
+                  "5": "toba",
+                  "6": "amshir",
+                  "7": "baramhat",
+                  "8": "baramouda",
+                  "9": "bashans",
+                  "10": "paona",
+                  "11": "epep",
+                  "12": "mesra",
+                  "13": "nasie"
                 }
               }
             },
@@ -320,8 +320,13 @@
               "medium": "{1} {0}",
               "short": "{1} {0}",
               "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "E d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -334,11 +339,11 @@
                 "GyMMMM": "MMMM 'de' y G",
                 "GyMMMMd": "d 'de' MMMM 'de' y G",
                 "GyMMMMEd": "E, d 'de' MMMM 'de' y G",
-                "h": "hh a",
+                "h": "h a",
                 "H": "HH",
-                "hm": "hh:mm a",
+                "hm": "h:mm a",
                 "Hm": "HH:mm",
-                "hms": "hh:mm:ss a",
+                "hms": "h:mm:ss a",
                 "Hms": "HH:mm:ss",
                 "M": "L",
                 "Md": "d/M",

@@ -3,8 +3,8 @@
     "fi": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13259 $",
-          "_cldrVersion": "31.0.1"
+          "_number": "$Revision: 13767 $",
+          "_cldrVersion": "32"
         },
         "language": "fi"
       },
@@ -14,19 +14,19 @@
             "months": {
               "format": {
                 "abbreviated": {
-                  "1": "Tout",
-                  "2": "Baba",
-                  "3": "Hator",
-                  "4": "Kiahk",
-                  "5": "Toba",
-                  "6": "Amshir",
-                  "7": "Baramhat",
-                  "8": "Baramouda",
-                  "9": "Bashans",
-                  "10": "Paona",
-                  "11": "Epep",
-                  "12": "Mesra",
-                  "13": "Nasie"
+                  "1": "thoutkuuta",
+                  "2": "paopikuuta",
+                  "3": "hathorkuuta",
+                  "4": "koiakkuuta",
+                  "5": "tobikuuta",
+                  "6": "meshirkuuta",
+                  "7": "paremhatkuuta",
+                  "8": "paremoudekuuta",
+                  "9": "pashonskuuta",
+                  "10": "paonikuuta",
+                  "11": "epipkuuta",
+                  "12": "mesorikuuta",
+                  "13": "pi-kogi-enavotkuuta"
                 },
                 "narrow": {
                   "1": "1",
@@ -44,36 +44,36 @@
                   "13": "13"
                 },
                 "wide": {
-                  "1": "Tout",
-                  "2": "Baba",
-                  "3": "Hator",
-                  "4": "Kiahk",
-                  "5": "Toba",
-                  "6": "Amshir",
-                  "7": "Baramhat",
-                  "8": "Baramouda",
-                  "9": "Bashans",
-                  "10": "Paona",
-                  "11": "Epep",
-                  "12": "Mesra",
-                  "13": "Nasie"
+                  "1": "thoutkuuta",
+                  "2": "paopikuuta",
+                  "3": "hathorkuuta",
+                  "4": "koiakkuuta",
+                  "5": "tobikuuta",
+                  "6": "meshirkuuta",
+                  "7": "paremhatkuuta",
+                  "8": "paremoudekuuta",
+                  "9": "pashonskuuta",
+                  "10": "paonikuuta",
+                  "11": "epipkuuta",
+                  "12": "mesorikuuta",
+                  "13": "pi-kogi-enavotkuuta"
                 }
               },
               "stand-alone": {
                 "abbreviated": {
-                  "1": "Tout",
-                  "2": "Baba",
-                  "3": "Hator",
-                  "4": "Kiahk",
-                  "5": "Toba",
-                  "6": "Amshir",
-                  "7": "Baramhat",
-                  "8": "Baramouda",
-                  "9": "Bashans",
-                  "10": "Paona",
-                  "11": "Epep",
-                  "12": "Mesra",
-                  "13": "Nasie"
+                  "1": "thout",
+                  "2": "paopi",
+                  "3": "hathor",
+                  "4": "koiak",
+                  "5": "toba",
+                  "6": "meshir",
+                  "7": "paremhat",
+                  "8": "paremoude",
+                  "9": "pashons",
+                  "10": "paoni",
+                  "11": "epip",
+                  "12": "mesori",
+                  "13": "pi kogi enavot"
                 },
                 "narrow": {
                   "1": "1",
@@ -91,19 +91,19 @@
                   "13": "13"
                 },
                 "wide": {
-                  "1": "Tout",
-                  "2": "Baba",
-                  "3": "Hator",
-                  "4": "Kiahk",
-                  "5": "Toba",
-                  "6": "Amshir",
-                  "7": "Baramhat",
-                  "8": "Baramouda",
-                  "9": "Bashans",
-                  "10": "Paona",
-                  "11": "Epep",
-                  "12": "Mesra",
-                  "13": "Nasie"
+                  "1": "thoutkuu",
+                  "2": "paopikuu",
+                  "3": "hathorkuu",
+                  "4": "koiakkuu",
+                  "5": "tobikuu",
+                  "6": "meshirkuu",
+                  "7": "paremhatkuu",
+                  "8": "paremoudekuu",
+                  "9": "pashonskuu",
+                  "10": "paonikuu",
+                  "11": "epipkuu",
+                  "12": "mesorikuu",
+                  "13": "pi-kogi-enavotkuu"
                 }
               }
             },
@@ -331,13 +331,18 @@
               "medium": "{1} 'klo' {0}",
               "short": "{1} {0}",
               "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h.mm B",
+                "Bhms": "h.mm.ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h.mm. B",
+                "EBhms": "E h.mm.ss B",
                 "Ed": "E d.",
-                "Ehm": "E h:mm a",
-                "EHm": "E HH:mm",
-                "Ehms": "E h:mm:ss a",
-                "EHms": "E HH:mm:ss",
+                "Ehm": "E h.mm a",
+                "EHm": "E HH.mm",
+                "Ehms": "E h.mm.ss a",
+                "EHms": "E HH.mm.ss",
                 "Gy": "y G",
                 "GyMMM": "LLL y G",
                 "GyMMMd": "d. MMM y G",
